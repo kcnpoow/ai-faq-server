@@ -18,7 +18,7 @@ class ChatBot:
         if cosine_scores[best_match] > 0.5:
             return faq_data['Answer'][best_match]
         else:
-            return "Извините, я не знаю ответа на этот вопрос."
+            return "Sorry, I don't know the answer to this question."
 
 
        
